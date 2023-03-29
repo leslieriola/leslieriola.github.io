@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portpolio</title>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="images/lESLIE RIOLA.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times"onclick="closemenu()"></i>
+    </ul>
+    <i class=" fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Full Stack WebDev</p>
+        <h1>Hi, I'm <span>Leslie Riola</span><br> From Philippines</h1>
+    </div>
+</div>
+    </div>
+    
+    <!---------About----------->
+
+    <div id="about">
+        <div class="conta">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Picture.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, Im Leslie Riola I'm a writer, a web developer and a digital marketer.
+                      Im creating excellent write-ups, exquisite designs and efficient Front End and Back End.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Books">
+                      <ul>
+                      </ul> 
+                      </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Full Stack WebDev</span><br>Creates HTML with copywriting skills</li>
+                        <li><span>Full Stack WebDev</span><br>Styles by CSS</li>
+                        <li><span>Full Stack WebDev</span><br>JavaScript</li>
+                    </ul> 
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Feb,27-Mar,4</span><br>Creates HTML with copywriting skills</li>
+                            <li><span>2023-Mar,6-15</span><br>Styles by CSS</li>
+                            <li><span>Soon</span><br>JavaScript</li>
+                        </ul> 
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Feb 2023-July 2023</span><br>KodeGo BootCamp</li>
+                                <li><span>2023-Feb,27-Mar,06-15</span><br>Can understand vanilla CSS</li>
+                                <li><span>No Idea Yet</span><br>JavaScript comming Soon XD</li>
+                            </ul> 
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Services Section----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                   <i class="fas fa-code"></i> 
+                    <h2>Copywriting and Book Writing</h2>
+                    <p>Coming Soon</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Front-End and Back End</h2>
+                    <p>Coming Soon</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-regular fa-desktop"></i>
+                    <h2>Web Design</h2>
+                    <p>Coming Soon</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------Portfolio Section---------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Computer Services</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/girl with computer.png" alt="">
+            <div class="layer">
+                <h3>Writing</h3>
+                <p>Creates educating, entertaining and inspiring copywriting and book writing materials</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/full stack web development.jpg" alt="">
+            <div class="layer">
+                <h3>Full Stack Web-Development</h3>
+                <p>I'm a complete package who can solve problems using full stack web development</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/digital marketing 2.jpg" alt="">
+            <div class="layer">
+                <h3>Digital Marketing</h3>
+                <p> Still Studying Digital Marketing</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="btn-container">
+        <a href="#" class="btn">See more</a
+            ></div>
+</div>
+</div>
+<!---------Contact Section------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i></i>leslieriola@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+63-9554894255</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/leAnn.riola/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class=""><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/leslie-ann-riola-a403b06b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/leslieriola"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="container">
+                <a href="" class="btn2">Download CV</a>
+                </div>
+              </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Leslie Riola <i class=" fas fa-heart"></i> </p>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
