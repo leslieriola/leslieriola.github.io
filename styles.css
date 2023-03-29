@@ -379,7 +379,7 @@ form textarea {
   background: whitesmoke;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: black;
   font-size: 18px;
   border-radius: 6px;
 }
@@ -398,10 +398,10 @@ form .btn2 {
   margin-top: 20px;
 }
 .copyright i {
-  color: whitesmoke;
+  color: black;
 }
 #msg {
-  color: whitesmoke;
+  color: black;
   margin-top: -20px;
   display: block;
 }
